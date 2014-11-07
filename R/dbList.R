@@ -1,7 +1,3 @@
-# Copyright (c) 2014 Clear Channel Broadcasting, Inc. 
-# https://github.com/iheartradio/ShinyBuilder
-# Licensed under the MIT License (MIT)
-
 #' Initialize connections in db list
 #' 
 #' Load db list from file, initializing connections to all included databases.

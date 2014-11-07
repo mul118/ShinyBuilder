@@ -1,7 +1,3 @@
-# Copyright (c) 2014 Clear Channel Broadcasting, Inc. 
-# https://github.com/iheartradio/ShinyBuilder
-# Licensed under the MIT License (MIT)
-
 shinyUI(fluidPage(
   
   #Includes
@@ -15,7 +11,7 @@ shinyUI(fluidPage(
   #Navbar
   div(class="navbar navbar-static-top navbar", 
       div(class = 'navbar-inner',
-        span(class = 'brand pull-left', list(img(src = './iheartradio.png', width="40", height="40"), 'Shiny Builder')),
+        span(class = 'brand pull-left', list('Shiny Builder')),
         column(3, selectInput('sel_dashboard', NULL, choices = available_dashboards)),
         #File
         withTags(
@@ -116,8 +112,7 @@ shinyUI(fluidPage(
            HTML('<button type="button" data-dismiss="modal" class="btn">Cancel</button>
                   <button type="button" data-dismiss="modal" class="btn btn-primary action-button" id="save_changes">Save Query</button>')
       )
-  ),
-  p('powered by iHR DataScience', align = 'left'),    
+  ),  
   
   #Main Stylesheet
   includeCSS(str_c(sb_dir, '/www/main.css'))

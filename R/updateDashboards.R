@@ -1,7 +1,3 @@
-# Copyright (c) 2014 Clear Channel Broadcasting, Inc. 
-# https://github.com/iheartradio/ShinyBuilder
-# Licensed under the MIT License (MIT)
-
 #' Update All Dashboards
 #' 
 #' @param dashboards a vector of dashboard names.  By default, all dashboards in the dashboards directory are updated
